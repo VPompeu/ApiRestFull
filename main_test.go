@@ -9,7 +9,7 @@ import (
      "strconv"
      "encoding/json"
      "bytes"
-     "github.com/<github username>/<project name>"
+     "github.com/VPompeu/GoProject"
  )
 
 var a main.App
