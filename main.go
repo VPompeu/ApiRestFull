@@ -1,13 +1,11 @@
 package main
 
-import "os"
-
 func main() {
 	a := App{}
 	a.Initialize(
-		os.Getenv("postgres"),
-		os.Getenv("3236"),
-		os.Getenv("postgres"))
+		"postgres",
+		"3236",
+		"postgres")
 
 	a.Run(":8010")
 }
