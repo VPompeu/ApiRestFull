@@ -4,11 +4,6 @@ import (
      "os"
      "testing"
      "log"
-     "net/http"
-     "net/http/httptest"
-     "strconv"
-     "encoding/json"
-     "bytes"
      "github.com/VPompeu/GoProject"
  )
 
